@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.pulsar.test" name="Pulsar Test" version="0.4.9" provider-name="steeve">
+<addon id="script.pulsar.test" name="Pulsar Test" version="0.4.10" provider-name="steeve">
 	<requires>
 		<import addon="xbmc.python" version="2.12.0"/>
 	</requires>
-	<extension point="xbmc.python.script" library="main.py">
-		<provides>executable</provides>
-	</extension>
     <extension point="xbmc.addon.repository" name="Pulsar Test">
         <info compressed="false">http://localhost:10001/repository/steeve/script.pulsar.test/addons.xml</info>
         <checksum>http://localhost:10001/repository/steeve/script.pulsar.test/addons.xml.md5</checksum>
         <datadir zip="true">http://localhost:10001/repository/steeve/</datadir>
     </extension>
+	<extension point="xbmc.python.script" library="main.py">
+		<provides>executable</provides>
+	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Pulsar Test</summary>
 		<language></language>
