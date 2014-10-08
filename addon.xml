@@ -2,7 +2,6 @@
 <addon id="script.pulsar.test" name="Pulsar Test" version="0.4.2" provider-name="steeve">
 	<requires>
 		<import addon="xbmc.python" version="2.12.0"/>
-		<import addon="plugin.video.pulsar" version="0.1"/>
 	</requires>
 	<extension point="xbmc.python.script" library="main.py">
 		<provides>executable</provides>
